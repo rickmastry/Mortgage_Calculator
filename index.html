@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+  <h1>Mortgage Calculator</h1>
+    <div class="input-field">
+    <p>Cost Of House: <span><input type="text" id="inCost" class="validate" required></span></p>
+    <p>Down Payment: <span><input type="text" id="inDown"></span></p>
+    <p>APR (Interest): <span><input type="text" id="inAPR" required></span></p>
+    <p>Period (Loan Length in Years): <span><input type="text" id="inPeriod" required></span></p>
+    <button class="btn waves-effect waves-light" id="btnCalculate" >Calculate Payment<i class="material-icons right"></i></button>
+    <p>Total Monthly Payment: <span id="outMonthly"></span></p>
+  </div>
+ </div>
+     
+   
+    <script src="js/index.js">
+    let regexTags = /(&nbsp;|<([^>]+)>)/ig;
+    </script>
+</body>
+</html>

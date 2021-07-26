@@ -1,0 +1,41 @@
+
+body{
+    background: #222;
+}
+
+hr{
+    width:50%;
+}
+
+.container{
+    padding:1rem;
+    width:575px;
+    height:575px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 10%;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+
+h1{
+    font-size:2rem;
+}
+
+.input-field input[type=text] {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+  input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }
+
+  input:invalid {
+    border: 2px dashed red;
+  }
+
+  input:valid {
+    border: 2px solid black;
+  }
